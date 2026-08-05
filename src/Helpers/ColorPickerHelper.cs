@@ -46,11 +46,9 @@ namespace ScreenColorPicker
                     }
                 }
             }
-
             return result;
         }
 
-        // Color to HEX conversion helper
         public static string ColorToHex(Color color)
         {
             return $"#{color.R:X2}{color.G:X2}{color.B:X2}";
