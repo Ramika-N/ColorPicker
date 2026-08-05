@@ -20,7 +20,7 @@ namespace ScreenColorPicker.Forms
         private void SetupPickerTimer()
         {
             pickerTimer = new Timer();
-            pickerTimer.Interval = 20; 
+            pickerTimer.Interval = 20; // ~50 FPS real-time update rate
             pickerTimer.Tick += PickerTimer_Tick;
         }
 
